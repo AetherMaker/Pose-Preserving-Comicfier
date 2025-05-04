@@ -180,12 +180,11 @@ DESCRIPTION = f"""
     Transform your photos into the gritty style of a 1940s Western comic! This app uses (Stable Diffusion + ControlNet)
     to apply the artistic look while keeping the original pose intact. Just upload your image and click Generate!
     </p>
-    <p style="font-size: 85%;"><em>(Generation can take several minutes on shared hardware. Prompts & parameters are fixed.)</em></p>
+    <p style="font-size: 85%;"><em>(Generation currently runs on CPU and can take several minutes. Please be patient! Prompts & parameters are fixed.)</em></p>
     <p style="font-size: 80%; color: grey;">
-    <a href="https://github.com/mehran-khani" target="_blank">[View Project on GitHub]</a> | 
-    <a href="https://huggingface.co/spaces/.../discussions" target="_blank">[Report an Issue]</a> 
+    <a href="https://github.com/mehran-khani/Pose-Preserving-Comicfier" target="_blank">[View Project on GitHub]</a> | 
+    <a href="https://huggingface.co/spaces/Mer-o/Pose-Preserving-Comicfier/discussions" target="_blank">[Report an Issue]</a> 
     </p> 
-    <!-- Remember to replace placeholders above with your actual links -->
 </div>
 """
 
