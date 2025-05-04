@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:af108a60b613d0d3fd8276fe6209385a673eab6f1fbb1e3be5e3ba518bbbcbc0
-size 336
+# Base ML
+torch==2.7.0
+torchvision==0.22.0
+torchaudio==2.7.0
+accelerate==1.6.0
+
+# Diffusers & Transformers
+diffusers==0.33.1
+transformers==4.51.3
+peft==0.15.2
+
+# ControlNet & Auxiliaries
+controlnet_aux==0.0.9
+mediapipe
+matplotlib
+opencv-python-headless==4.11.0.86
+Pillow==11.2.1
+pillow-heif==0.22.0
+numpy==2.2.5
+
+# Web UI
+gradio==5.29.0
